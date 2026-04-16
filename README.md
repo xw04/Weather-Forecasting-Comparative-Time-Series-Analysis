@@ -26,11 +26,11 @@ The models were evaluated on a 20% test set using standard error metrics.
 | **Prophet** | 1.71 | 1.28 | 5.11% |
 | **SARIMA** | 3.30 | 2.63 | 9.91% |
 
-## 🔍 Model Diagnostics & Validation
+## Model Diagnostics & Validation
 To ensure the models were not just "guessing" but actually learning the data structure, I performed extensive residual analysis:
 - **Ljung-Box Test:** Confirmed no remaining autocorrelation in the residuals.
 - **Shapiro-Wilk Test:** Evaluated the normality of the error distribution.
 - **ACF/PACF Analysis:** Visualized residuals to verify they approximate "White Noise".
 
-## 📈 Future Forecast
+## Future Forecast
 The best-performing model (SARIMA) was used to generate a **1-year future forecast (52 weeks)** for 2024-2025, providing actionable insights into upcoming temperature trends.
