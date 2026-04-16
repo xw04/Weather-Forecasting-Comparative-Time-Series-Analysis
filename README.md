@@ -1,7 +1,7 @@
 # Weather Forecasting: Comparative Time Series Analysis
 
 ## Project Overview
-This project, completed as part of the **BMMS2074 Statistics for Data Science** module, focuses on predicting future temperature trends using historical weather data. I implemented a rigorous statistical pipeline to evaluate and compare multiple forecasting architectures, ranging from classical econometric models (SARIMA) to modern additive models (Facebook Prophet).
+This project focuses on predicting future temperature trends using historical weather data. I implemented a rigorous statistical pipeline to evaluate and compare multiple forecasting architectures, ranging from classical econometric models (SARIMA) to modern additive models (Facebook Prophet).
 
 ## Tech Stack & Methodology
 - **Language:** R
