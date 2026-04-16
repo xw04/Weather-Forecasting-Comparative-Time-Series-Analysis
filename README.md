@@ -26,8 +26,6 @@ The models were evaluated on a 20% test set using standard error metrics.
 | **Prophet** | 1.71 | 1.28 | 5.11% |
 | **SARIMA** | 3.30 | 2.63 | 9.91% |
 
-**Key Finding:** The **SARIMA** model provided the lowest prediction error across all metrics (RMSE, MAE, and MAPE), making it the superior model for forecasting future temperature values in this dataset.
-
 ## 🔍 Model Diagnostics & Validation
 To ensure the models were not just "guessing" but actually learning the data structure, I performed extensive residual analysis:
 - **Ljung-Box Test:** Confirmed no remaining autocorrelation in the residuals.
